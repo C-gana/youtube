@@ -1,0 +1,103 @@
+.nav-flex {
+  display: flex;
+  height: 55px;
+  align-items: center;
+  background-color: white;
+}
+
+.left-section {
+  display: flex;
+  width: 200px;
+  padding-left: 30px;
+}
+
+.menu-icon {
+  width: 20px;
+}
+
+.youtube-logo {
+  width: 110px;
+  margin-left: 15px;
+}
+
+.middle-section {
+  flex: 1;
+  display: flex;
+  place-content: center;
+  padding: 0px 20px;
+}
+
+.middle-section div {
+  display: flex;
+  flex: 1;
+  place-content: center;
+}
+
+.search-bar {
+  flex: 1;
+  font-size: 16px;
+  padding: 8px;
+  width: 0;
+  max-width: 400px;
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 3px;
+  box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.111);
+}
+
+.search-button {
+  width: 50px;
+  height: 36px;
+  border: 1px solid rgb(191, 191, 191);
+  margin-left: -2px;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 25px;
+  padding-top: 5px;
+}
+
+.voice-search-button {
+  width: 36px;
+  height: 36px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.voice-search-button img {
+  width: 24px;
+  margin-top: 3px;
+}
+
+.right-section {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+
+.profile-small {
+  border-radius: 20px;
+}
+
+.icon {
+  width: 25px;
+  cursor: pointer;
+}
+
+.notification-counter {
+  position: absolute;
+  top: 2px;
+  right: 77px;
+  background-color: rgb(205, 4, 4);
+  width: 18px;
+  padding: 3px 2px;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+}
