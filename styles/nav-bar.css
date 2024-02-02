@@ -108,6 +108,30 @@
   position: fixed;
   bottom: 0;
   top: 55px;
-  width: 180px;
+  width: 200px;
+  padding-top: 10px;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.314);
+  align-content: center;
+}
+
+.link {
+  padding: 6px 0px;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+.side-icon {
+  margin-left: 28px;
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.link-name {
+  display: inline-block;
+  vertical-align: middle;
 }
