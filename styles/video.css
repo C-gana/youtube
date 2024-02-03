@@ -33,6 +33,7 @@
 .channel-profile {
     width: 50px;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 .video-info {
@@ -41,6 +42,11 @@
 
 .video-title {
     font-weight: bold;
+    cursor: pointer;
+}
+
+.video-title:hover {
+    text-decoration: underline;
 }
 
 .video-author,
