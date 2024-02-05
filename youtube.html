@@ -1,75 +1,82 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/nav-bar.css" />
     <link rel="stylesheet" href="styles/video.css" />
     <link rel="stylesheet" href="styles/sidebar.css" />
     <title>YouTube.com</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav>
-        <div class="nav-flex">
-            <div class="left-section">
-                <img class="menu-icon" src="icons/hamburger-menu.svg" alt="" />
-                <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
-            </div>
-            <div class="middle-section">
-                <div>
-                    <input type="text" placeholder="Search" class="search-bar" />
-                    <button class="search-button">
-              <img class="search-icon" src="icons/search.svg" alt="" />
-            </button>
-                    <button class="voice-search-button">
-              <img src="icons/voice-search-icon.svg" alt="" />
-            </button>
-                </div>
-            </div>
-            <div class="right-section">
-                <img class="icon" src="icons/upload.svg" alt="" />
-                <img class="icon" src="icons/youtube-apps.svg" alt="" />
-
-                <div>
-                    <img class="icon" src="icons/notifications.svg" alt="" />
-                    <div class="notification-counter">0</div>
-                </div>
-                <img class="icon profile-small" src="images/cgana.jpg" alt="" />
-            </div>
+      <div class="nav-flex">
+        <div class="left-section">
+          <img class="menu-icon" src="icons/hamburger-menu.svg" alt="" />
+          <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
         </div>
+        <div class="middle-section">
+          <div>
+            <input type="text" placeholder="Search" class="search-bar" />
+            <button class="search-button">
+              <img class="search-icon" src="icons/search.svg" alt="" />
+              <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+              <img src="icons/voice-search-icon.svg" alt="" />
+              <div class="tooltip">Search using your Voice</div>
+            </button>
+          </div>
+        </div>
+        <div class="right-section">
+          <div class="uploads">
+            <img class="icon" src="icons/upload.svg" alt="" />
+            <div class="tooltip">Create</div>
+          </div>
+          <div class="youtube-apps">
+            <img class="icon" src="icons/youtube-apps.svg" alt="" />
+            <div class="tooltip">YouTube Apps</div>
+          </div>
+
+          <div class="notifications">
+            <img class="icon" src="icons/notifications.svg" alt="" />
+            <div class="notification-counter">10</div>
+            <div class="tooltip">Notifications</div>
+          </div>
+          <img class="icon profile-small" src="images/cgana.jpg" alt="" />
+        </div>
+      </div>
     </nav>
     <main>
-        <div class="side-bar">
-            <div class="link">
-                <img class="side-icon" src="icons/home.svg" alt="" />
-                <div class="link-name">Home</div>
-            </div>
-            <div class="link">
-                <img class="side-icon" src="icons/explore.svg" alt="" />
-                <div class="link-name">Explore</div>
-            </div>
-            <div class="link">
-                <img class="side-icon" src="icons/subscriptions.svg" alt="" />
-                <div class="link-name">Subscriptions</div>
-            </div>
-            <div class="link">
-                <img class="side-icon" src="icons/originals.svg" alt="" />
-                <div class="link-name">Originals</div>
-            </div>
-            <div class="link">
-                <img class="side-icon" src="icons/youtube-music.svg" alt="" />
-                <div class="link-name">YouTube Music</div>
-            </div>
-            <div class="link">
-                <img class="side-icon" src="icons/library.svg" alt="" />
-                <div class="link-name">Library</div>
-            </div>
+      <div class="side-bar">
+        <div class="link">
+          <img class="side-icon" src="icons/home.svg" alt="" />
+          <div class="link-name">Home</div>
         </div>
-        <div class="video-grid js-videos"></div>
+        <div class="link">
+          <img class="side-icon" src="icons/explore.svg" alt="" />
+          <div class="link-name">Explore</div>
+        </div>
+        <div class="link">
+          <img class="side-icon" src="icons/subscriptions.svg" alt="" />
+          <div class="link-name">Subscriptions</div>
+        </div>
+        <div class="link">
+          <img class="side-icon" src="icons/originals.svg" alt="" />
+          <div class="link-name">Originals</div>
+        </div>
+        <div class="link">
+          <img class="side-icon" src="icons/youtube-music.svg" alt="" />
+          <div class="link-name">YouTube Music</div>
+        </div>
+        <div class="link">
+          <img class="side-icon" src="icons/library.svg" alt="" />
+          <div class="link-name">Library</div>
+        </div>
+      </div>
+      <div class="video-grid js-videos"></div>
     </main>
     <script src="data/videos.js"></script>
     <script src="scripts/youtube.js"></script>
-</body>
-
+  </body>
 </html>
