@@ -23,17 +23,18 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.248);
+  display: flex;
+  place-content: center;
+  place-items: center;
 }
 
 .upload-container {
   padding: 0px 10px;
   border-radius: 10px;
   width: 300px;
-  height: 300px;
-  background-color: white;
-  margin: auto;
-  margin-top: 20px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.664);
 }
 
 .upload-title {
@@ -41,9 +42,51 @@
   text-align: center;
   padding: 10px;
   color: white;
-  background-color: darkred;
+  font-size: 20px;
 }
 
 .upload-description {
   margin: 5px 0px;
+}
+
+.input-box {
+  padding: 5px 10px;
+  width: 275px;
+  margin: 5px 0px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-transform: capitalize;
+  border-bottom: 1px solid rgb(148, 148, 148);
+}
+
+.input-box::placeholder {
+  color: rgb(148, 148, 148);
+}
+
+.input-box:focus {
+  outline: gray solid 1px;
+  border-radius: 3px;
+}
+
+.upload-button {
+  color: white;
+  background-color: darkred;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 5px 50px;
+  border-radius: 3px;
+  margin-left: 60px;
+}
+
+.label-1 {
+  color: rgb(148, 148, 148);
+  margin-top: 20px;
+}
+
+.image-input {
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(148, 148, 148);
+  width: 290px;
 }

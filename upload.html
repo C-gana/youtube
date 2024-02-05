@@ -7,38 +7,63 @@
 
   <body>
     <div class="kaya">
-      <button class="subscribe-button">Subscribe</button>
+      <button class="subscribe-button" onclick="overlay();">Subscribe</button>
       <div class="overlay">
         <div class="upload-container">
           <form action="">
             <div class="upload-title">UPLOAD A VIDEO</div>
-            <div class="upload-description">
-              Fill in the details below to upload a video
-            </div>
-            <label for="image">Select video thumbnail:</label>
+
             <input
-              type="file"
-              name="image"
-              id="img"
-              accept="image/*"
+              class="input-box"
+              type="text"
+              placeholder=" Enter Video Title"
               required
             />
-            <input type="text" placeholder=" Enter Video Title" required />
-            <input type="text" placeholder=" Enter Video Author" required />
             <input
+              class="input-box"
+              type="text"
+              placeholder=" Enter Video Author"
+              required
+            />
+            <input
+              class="input-box"
               type="text"
               placeholder=" Enter Video Views e.g 3M for 3 million views"
               required
             />
             <input
+              class="input-box"
               type="text"
               placeholder="Days uploaded e.g 4 months"
               required
             />
-            <input type="submit" value="Upload Video" />
+
+            <div class="label-1">Video Thumbnail:</div>
+            <input
+              type="file"
+              name="image"
+              id="img"
+              class="image-input"
+              accept="image/*"
+              required
+            />
+            <div class="label-1">Channel Profile Picture:</div>
+            <input
+              type="file"
+              name="image"
+              id="img"
+              class="image-input"
+              accept="image/*"
+              required
+            />
+            <button class="upload-button">Upload Video</button>
           </form>
         </div>
       </div>
     </div>
+
+    <script>
+      function overlay() {}
+    </script>
   </body>
 </html>
